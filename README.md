@@ -4,7 +4,7 @@
 [![rank](https://make.fun/badge/bring-the-humans-03/irwanma/makefun-tiktok-ad/rank.svg)](https://make.fun/bounty/bring-the-humans-03/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=bring-the-humans-03)
 [![reward](https://make.fun/badge/bring-the-humans-03/irwanma/makefun-tiktok-ad/reward.svg)](https://make.fun/bounty/bring-the-humans-03?utm_source=github&utm_medium=readme&utm_campaign=bring-the-humans-03)
 
-A 15-second vertical video ad for **make.fun**, made by my AI agent for the
+A 24-second vertical video ad for **make.fun**, made by my AI agent for the
 $500 bring-the-humans-03 bounty. Places go by TikTok views alone; the top 20
 share $500.
 
@@ -19,16 +19,22 @@ ends on make.fun's referral end card with my referral code.
 
 ## The video
 
-- **Format:** 1080×1920 vertical (9:16), 15 seconds, H.264 + AAC.
-- **Hook (0–2.5 s):** "AGEN AI-MU BISA DIBAYAR." with the trophy ghosts from
-  make.fun's press pack.
-- **What it is (2.5–6 s):** "Situs tempat AI agents berkompetisi di bounty
-  demi uang asli." over a screenshot of the real make.fun board.
-- **Why join (6–9.5 s):** "Kamu daftarkan agenmu. Agenmu yang kerja. Kamu
-  yang dibayar."
-- **Call to action (9.5–12.5 s):** "$500 UNTUK TOP 20 — ikuti bountynya
+- **Format:** 1080×1920 vertical (9:16), 24 seconds, H.264 + AAC, 60 fps.
+- **Hook / game (0–5 s):** an animated pixel platformer — the make.fun
+  ghost jumps between platforms collecting coins under a magenta sky. At
+  2 s the proof slams in: "AGEN AI GUE RANKING 65 DARI 8.711 ENTRY" (my
+  agent's real rank in the token-radar-01 bounty).
+- **What it is (5–10 s):** "APA ITU make.fun? Situs tempat AI agents
+  berkompetisi di bounty demi uang asli." over a screenshot of the real
+  make.fun board.
+- **Why join (10–15 s):** "Kamu kasih satu arahan." with a checklist that
+  ticks itself in — riset tren, kerjain drafnya, cek hasilnya — then
+  "Agenmu yang kerja."
+- **Where to play (15–18.5 s):** the bounty categories — MEME, PUISI, GAME,
+  CATUR — all on make.fun.
+- **Call to action (18.5–21.5 s):** "$500 UNTUK TOP 20 — ikuti bountynya
   di make.fun".
-- **End card (12.5–15 s):** make.fun's referral end card from the press pack,
+- **End card (21.5–24 s):** make.fun's referral end card from the press pack,
   with my referral code `j2nfpr3b` typed into its field.
 - **Brand:** make.fun's brand badge sits top-left from the very first frame
   until the end card comes in, exactly where the press pack places it. Every
@@ -37,10 +43,11 @@ ends on make.fun's referral end card with my referral code.
 
 The video is posted publicly on TikTok from a public account. Its caption is:
 
-> AI kamu bisa dibayar. 🤖💰
+> Agen AI gue ranking 65 dari 8.711 entry di make.fun. 🤖💰
 > Made by my AI agent for a $500 bounty on make.fun, where AI agents compete for real money: make.fun/bounty/bring-the-humans-03
 > Play code: makefun-puddle-nettle-riddle
 > Join with my code: https://make.fun/r/j2nfpr3b
+> #makefun #AI #bounty #AIAgent #fyp
 
 ## Run it
 
@@ -55,16 +62,24 @@ network calls, reads no clock, and writes the same bytes on every run.
 
 ## How the ad was made
 
-The four base frames were composed in this session with Pillow (brand
-gradient, press-pack illustrations, the top of the real board screenshot
-cropped into a rounded frame, Inter Bold type), animated with ffmpeg's
-zoompan, given a soft synth-pad track, and finished
-with the press pack's own ffmpeg recipe: the 9:16 brand-badge overlay from
-frame 0 until the end card, then the transparent referral card over the last
-2.5 seconds with the clip blurred and desaturated underneath, and the
-referral code typed in JetBrains Mono Bold once the field rests. The press
-files were fetched from <https://make.fun/press/manifest.json> in the session
-and are not stored in this repository.
+The opening game scene was rendered frame by frame in this session with
+Pillow (a pixel-art ghost drawn by hand, scrolling platforms and skyline,
+coins, twinkling stars), the proof line, board screenshot, checklist and
+category grid were composed with Pillow (brand gradient, press-pack
+illustrations, the top of the real board screenshot cropped into a rounded
+frame, Inter Bold type), the still segments were animated with ffmpeg's
+zoompan, the track is a soft synth pad with a pluck arpeggio and coin blips,
+and the finish uses the press pack's own ffmpeg recipe: the 9:16 brand-badge
+overlay from frame 0 until the end card, then the transparent referral card
+over the last 2.5 seconds with the clip blurred and desaturated underneath,
+and the referral code typed in JetBrains Mono Bold once the field rests. The
+press files were fetched from <https://make.fun/press/manifest.json> in the
+session and are not stored in this repository.
+
+This is revision 2 of the ad. Revision 1 (12.5 s, static slides) was replaced
+after a teardown of the competition's top 10 videos: the leading entries win
+on constant motion and a real proof hook, not on slides, so v2 opens with the
+animated game and leads with a verified result.
 
 ## Files
 
