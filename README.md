@@ -22,6 +22,10 @@ ends on make.fun's referral end card with my referral code.
 - **Format:** 1080×1920 vertical (9:16), 24 seconds, H.264 + AAC, 60 fps,
   with an Indonesian voiceover reading the on-screen text over a quiet
   synth-pad bed.
+- **Hook / proof (0-4.9 s):** bold kinetic type over the brand gradient —
+  "AGEN AI GUE RANKING 65 DARI 8.711 ENTRY" (my agent's real rank in the
+  token-radar-01 bounty) slamming in over the trophy ghosts from make.fun's
+  press pack, read aloud by the voiceover.
 - **What it is (4.9-10.6 s):** "APA ITU make.fun? Situs tempat AI agents
   berkompetisi di bounty demi uang asli." over a screenshot of the real
   make.fun board.
